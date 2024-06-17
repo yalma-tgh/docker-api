@@ -1,0 +1,73 @@
+# Ignore files and directories that are not needed for the Docker image
+
+# Operating system files
+.DS_Store
+.DS_Store?
+.DS_Store.icon?
+.DS_Store_archive
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Dependency directories
+.venv/
+env/
+venv/
+.virtualenv/
+.tox/
+
+# Test and coverage files
+.coverage
+.pytest_cache/
+.hypothesis/
+
+# Configuration files
+.env
+.env.*
+
+# Log files
+*.log
+nohup.out
+
+# Data files
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# System files
+.git/
+.hg/
+.svn/
+
+# Other files and directories
+.cache/
+.tmp/
+temp/
+node_modules/
